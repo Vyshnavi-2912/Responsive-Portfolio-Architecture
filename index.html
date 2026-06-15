@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio of Vyshnavi Ullingala, Frontend Developer Intern at Tiranex and B.Tech Student. Showcasing responsive web design and AI projects.">
+  <meta name="keywords" content="Vyshnavi Ullingala, Frontend Developer, Tiranex, B.Tech Student, AI Enthusiast, Responsive Design, CSS Grid, Eluru">
+  <meta name="author" content="Vyshnavi Ullingala">
+  <title>Vyshnavi Ullingala | Frontend Developer & AI Enthusiast</title>
+  
+  <!-- FontAwesome Icon Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background Decorative Blur Blobs -->
+  <div class="blur-blob blur-blob-1" aria-hidden="true"></div>
+  <div class="blur-blob blur-blob-2" aria-hidden="true"></div>
+  <div class="blur-blob blur-blob-3" aria-hidden="true"></div>
+
+  <!-- Header Navigation -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo" aria-label="Vyshnavi Ullingala Portfolio">
+        VYSHNAVI<span class="logo-dot"></span>
+      </a>
+      
+      <div class="nav-links-wrapper" id="nav-menu">
+        <nav class="nav-links">
+          <a href="#hero" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#internship" class="nav-link">Internship</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light and dark mode">
+            <i class="fa-solid fa-moon"></i>
+            <i class="fa-solid fa-sun"></i>
+          </button>
+          <a href="#contact" class="btn btn-secondary" style="padding: 10px 20px; font-size: 0.85rem;">Get in Touch</a>
+        </div>
+      </div>
+      
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open mobile menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero section" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <div class="hero-tag">
+          <span class="hero-tag-pulse" aria-hidden="true"></span>
+          <span>Frontend Development Intern @ Tiranex</span>
+        </div>
+        <h1 class="hero-title title-gradient">Vyshnavi Ullingala</h1>
+        <p class="hero-tag" style="margin-bottom: 20px; background: var(--secondary-glow); border-color: rgba(168, 85, 247, 0.2); color: var(--secondary-color);">
+          Frontend Developer | AI Enthusiast | B.Tech Student
+        </p>
+        <p class="hero-desc">Building responsive web experiences and AI-powered solutions. Passionate about pixel-perfect layouts, modern styling standards, and computer vision models.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary">
+            <span>Contact Me</span>
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://github.com/Vyshnavi-2912" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/vyshnavi-ullingala-2567993b8" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-visual reveal">
+        <div class="hero-visual-wrapper">
+          <!-- Glassmorphic Decorative Floatings -->
+          <div class="floating-card floating-card-1 glass-panel" aria-hidden="true">
+            <i class="fa-brands fa-css3-alt" style="color: #2563eb;"></i>
+            <span>CSS Grid & Flexbox</span>
+          </div>
+          <div class="floating-card floating-card-2 glass-panel" aria-hidden="true">
+            <i class="fa-solid fa-brain" style="color: #a855f7;"></i>
+            <span>Object Detection</span>
+          </div>
+          <div class="floating-card floating-card-3 glass-panel" aria-hidden="true">
+            <i class="fa-solid fa-universal-access" style="color: #10b981;"></i>
+            <span>Accessibility (WCAG)</span>
+          </div>
+          
+          <div class="profile-circle">
+            <img id="profile-img" src="assets/images/profile.jpg" alt="Vyshnavi Ullingala Profile Photo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Biography</span>
+        <h2 class="section-title title-gradient">About Me</h2>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-img-container reveal" style="transition-delay: 0.1s;">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800" alt="Workplace coding setup screenshot">
+        </div>
+        
+        <div class="about-details reveal" style="transition-delay: 0.2s;">
+          <h3 class="about-heading text-gradient">Bridging Frontend Interfaces and Artificial Intelligence</h3>
+          <p class="about-text">I am a highly driven B.Tech 2nd Year student with an intense passion for Frontend Development, Responsive Web Design, UI/UX Design, and Artificial Intelligence. Through continuous learning, I specialize in crafting accessible, screen-reader compliant, and visually stunning web systems. I enjoy experimenting with language processors, chatbot logic, and real-time object detection models to build integrated web solutions.</p>
+          
+          <!-- Key Metrics -->
+          <div class="about-stats">
+            <div class="stat-item glass-panel">
+              <span class="stat-number">2nd</span>
+              <span class="stat-label">Year B.Tech</span>
+            </div>
+            <div class="stat-item glass-panel">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Core Projects</span>
+            </div>
+            <div class="stat-item glass-panel">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Responsive Focus</span>
+            </div>
+          </div>
+          
+          <div>
+            <a href="#contact" class="btn btn-primary">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Hire Me</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education section" id="education" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Academic Details</span>
+        <h2 class="section-title title-gradient">Education</h2>
+      </div>
+      
+      <div style="max-width: 800px; margin: 0 auto;" class="reveal">
+        <div class="glass-panel" style="padding: 40px; display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
+          <div class="contact-icon-wrapper" style="width: 60px; height: 60px; font-size: 1.8rem; border-radius: var(--radius-md);">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div style="flex-grow: 1;">
+            <span class="timeline-duration" style="float: right; margin-bottom: 10px;">Ongoing</span>
+            <h3 style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 700; margin-bottom: 5px; color: var(--text-primary);">Ramachandra College of Engineering</h3>
+            <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 8px; font-size: 1.05rem;">B.Tech 2nd Year Student</p>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; display: flex; align-items: center; gap: 8px;">
+              <i class="fa-solid fa-location-dot" style="color: var(--accent-color);"></i> Eluru, Andhra Pradesh, India
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">My Capabilities</span>
+        <h2 class="section-title title-gradient">Skills & Expertise</h2>
+      </div>
+      
+      <div class="skills-layout">
+        <!-- Frontend Development Progress Card -->
+        <div class="skills-card glass-panel reveal" style="transition-delay: 0.1s;">
+          <h3 class="skills-category-title">
+            <i class="fa-solid fa-code"></i>
+            <span>Frontend & Core Styling</span>
+          </h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML5 & Semantic Structure</span>
+                <span class="skill-pct">95%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" data-width="95%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">CSS3 (Grid & Flexbox Alignment)</span>
+                <span class="skill-pct">92%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" data-width="92%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Responsive Design Architecture</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" data-width="90%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Web Accessibility & WCAG Standards</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" data-width="85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technology & AI Card -->
+        <div class="skills-card glass-panel reveal" style="transition-delay: 0.2s;">
+          <h3 class="skills-category-title">
+            <i class="fa-solid fa-robot"></i>
+            <span>Technology & AI</span>
+          </h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Artificial Intelligence Core</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" data-width="82%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Real-Time Object Detection Models</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" data-width="80%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Language Translation Web Apps</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" data-width="85%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">AI Chatbot Development</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" data-width="88%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Skill tags cloud -->
+      <div class="skill-tags reveal" style="transition-delay: 0.3s; justify-content: center;">
+        <span class="skill-tag">Vanilla JavaScript</span>
+        <span class="skill-tag">CSS Keyframe Animations</span>
+        <span class="skill-tag">Sass / SCSS</span>
+        <span class="skill-tag">Semantic Tags Structure</span>
+        <span class="skill-tag">Figma Prototyping</span>
+        <span class="skill-tag">Computer Vision Models</span>
+        <span class="skill-tag">NLP chatbot architecture</span>
+        <span class="skill-tag">Git & GitHub</span>
+        <span class="skill-tag">Cross-Browser Sizing</span>
+        <span class="skill-tag">UX Flow Alignment</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Internship Section -->
+  <section class="experience section" id="internship">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Work Placement</span>
+        <h2 class="section-title title-gradient">Internship Experience</h2>
+      </div>
+      
+      <div class="timeline">
+        <!-- Tiranex Internship -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-panel">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Frontend Development Intern</h3>
+                <span class="timeline-company">Tiranex</span>
+              </div>
+              <span class="timeline-duration">Ongoing</span>
+            </div>
+            <p class="timeline-desc">Specializing in building high-fidelity web solutions with an emphasis on CSS3 responsive architectures, semantic structures, and design alignments.</p>
+            <ul class="timeline-bullets">
+              <li>Engineered interactive web components utilizing Advanced CSS3 transitions, animations, and modular styling.</li>
+              <li>Orchestrated responsive page layouts using CSS Grid templates and Flexbox utilities for perfect element alignment across all screen sizes.</li>
+              <li>Wrote accessible code adhering strictly to Semantic HTML5 tags and WCAG standards to maximize page reach and SEO values.</li>
+              <li>Collaborated on visual layout mockups, optimizing cross-browser compatibility and loading benchmarks.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Portfolio</span>
+        <h2 class="section-title title-gradient">Featured Projects</h2>
+      </div>
+      
+      <!-- Filter controls -->
+      <div class="projects-filter reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="frontend">Frontend Dev</button>
+        <button class="filter-btn" data-filter="ai">AI & Tech</button>
+      </div>
+      
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card glass-panel reveal" data-category="ai">
+          <div class="project-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&q=80&w=600" alt="Real-Time Object Detection display UI screenshot">
+            <div class="project-overlay">
+              <a href="#" class="project-overlay-link" aria-label="View live demo of Object Detection"><i class="fa-solid fa-play"></i></a>
+              <a href="https://github.com/Vyshnavi-2912" target="_blank" rel="noopener noreferrer" class="project-overlay-link" aria-label="View source code of Object Detection"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-meta">AI & Tech</span>
+            <h3 class="project-title">Real-Time Object Detection</h3>
+            <p class="project-desc">An AI-based computer vision web system capable of identifying and outlining objects from live camera streams in real time.</p>
+            <div class="project-tech">
+              <span>TensorFlow.js</span>
+              <span>Webcam API</span>
+              <span>CSS Grid</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-panel reveal" data-category="ai" style="transition-delay: 0.1s;">
+          <div class="project-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1489976908522-aabacf277f49?auto=format&fit=crop&q=80&w=600" alt="Language Translator Web App Screenshot">
+            <div class="project-overlay">
+              <a href="#" class="project-overlay-link" aria-label="View live demo of Language Translator"><i class="fa-solid fa-play"></i></a>
+              <a href="https://github.com/Vyshnavi-2912" target="_blank" rel="noopener noreferrer" class="project-overlay-link" aria-label="View source code of Language Translator"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-meta">AI & Tech</span>
+            <h3 class="project-title">Language Translator</h3>
+            <p class="project-desc">A highly responsive multi-lingual translator application built with dynamic language API endpoints and a sleek glassmorphic UI.</p>
+            <div class="project-tech">
+              <span>Translation API</span>
+              <span>Vanilla JS</span>
+              <span>Flexbox</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card glass-panel reveal" data-category="ai" style="transition-delay: 0.2s;">
+          <div class="project-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?auto=format&fit=crop&q=80&w=600" alt="AI Chatbot Application interface screenshot">
+            <div class="project-overlay">
+              <a href="#" class="project-overlay-link" aria-label="View live demo of AI Chatbot"><i class="fa-solid fa-play"></i></a>
+              <a href="https://github.com/Vyshnavi-2912" target="_blank" rel="noopener noreferrer" class="project-overlay-link" aria-label="View source code of AI Chatbot"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-meta">AI & Tech</span>
+            <h3 class="project-title">AI Chatbot</h3>
+            <p class="project-desc">A smart conversational web interface that processes user queries and replies instantly using natural language processing logic.</p>
+            <div class="project-tech">
+              <span>NLP API</span>
+              <span>WebSockets</span>
+              <span>Glassmorphism</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card glass-panel reveal" data-category="frontend">
+          <div class="project-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" alt="Semantic Web Structure layout mockup screenshot">
+            <div class="project-overlay">
+              <a href="#" class="project-overlay-link" aria-label="View live demo of Semantic project"><i class="fa-solid fa-play"></i></a>
+              <a href="https://github.com/Vyshnavi-2912" target="_blank" rel="noopener noreferrer" class="project-overlay-link" aria-label="View source code of Semantic project"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-meta">Frontend Dev</span>
+            <h3 class="project-title">Semantic Structure & Accessibility</h3>
+            <p class="project-desc">A layout template developed strictly under WCAG accessibility criteria, integrating keyboard focus hooks and semantic tagging.</p>
+            <div class="project-tech">
+              <span>Semantic HTML5</span>
+              <span>Aria Labels</span>
+              <span>WCAG 2.1</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card glass-panel reveal" data-category="frontend" style="transition-delay: 0.1s;">
+          <div class="project-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&q=80&w=600" alt="Advanced CSS Responsive Dashboard layout screenshot">
+            <div class="project-overlay">
+              <a href="#" class="project-overlay-link" aria-label="View live demo of Responsive CSS layout"><i class="fa-solid fa-play"></i></a>
+              <a href="https://github.com/Vyshnavi-2912" target="_blank" rel="noopener noreferrer" class="project-overlay-link" aria-label="View source code of Responsive CSS layout"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-meta">Frontend Dev</span>
+            <h3 class="project-title">Advanced CSS3 & Responsive Architecture</h3>
+            <p class="project-desc">Pixel-perfect layouts showcasing complex CSS Grid nesting, Flexbox alignments, and smooth light/dark custom property variables.</p>
+            <div class="project-tech">
+              <span>CSS Grid</span>
+              <span>CSS Variables</span>
+              <span>Flexbox</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Feedback</span>
+        <h2 class="section-title title-gradient">Testimonials</h2>
+      </div>
+      
+      <div class="testimonials-slider reveal">
+        <div class="testimonials-track" id="testimonials-track">
+          <!-- Slide 1 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card glass-panel">
+              <div class="testimonial-quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <p class="testimonial-text">"Vyshnavi is an exceptional intern. Her grasp of advanced CSS grids and structured semantic code allowed her to deliver a highly polished interface for our system ahead of schedule."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">
+                  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150" alt="Tiranex Mentor Profile">
+                </div>
+                <div class="testimonial-author-info">
+                  <h4 class="testimonial-name">Siddharth Sen</h4>
+                  <span class="testimonial-role">Senior Frontend Lead at Tiranex</span>
+                  <div class="testimonial-stars" aria-label="5 stars rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card glass-panel">
+              <div class="testimonial-quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <p class="testimonial-text">"The responsive layouts and semantic accessibility features Vyshnavi designs show a level of attention to detail that is highly rare. Her AI translator integrations work smoothly."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150" alt="Academic Mentor Profile">
+                </div>
+                <div class="testimonial-author-info">
+                  <h4 class="testimonial-name">Dr. R. Prasad</h4>
+                  <span class="testimonial-role">Professor at Ramachandra College of Engineering</span>
+                  <div class="testimonial-stars" aria-label="5 stars rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Controls -->
+        <div class="slider-controls">
+          <button class="slider-btn" id="slider-prev" aria-label="Previous testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+          <div class="slider-dots" id="slider-dots">
+            <!-- Populated by JS -->
+          </div>
+          <button class="slider-btn" id="slider-next" aria-label="Next testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Get in Touch</span>
+        <h2 class="section-title title-gradient">Connect With Me</h2>
+      </div>
+      
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info-card glass-panel reveal" style="transition-delay: 0.1s;">
+          <h3 class="contact-info-title">Contact Information</h3>
+          <div class="contact-info-list">
+            <div class="contact-item">
+              <div class="contact-icon-wrapper"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span class="contact-detail-label">Email Me</span>
+                <div class="contact-detail-value">Vyshnavi.ullingala07@gmail.com</div>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon-wrapper"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span class="contact-detail-label">Location</span>
+                <div class="contact-detail-value">Eluru, Andhra Pradesh, India</div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Socials -->
+          <div>
+            <h4 class="socials-title">Follow My Activity</h4>
+            <div class="social-links">
+              <a href="https://github.com/Vyshnavi-2912" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Vyshnavi's GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/vyshnavi-ullingala-2567993b8" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Vyshnavi's LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-card glass-panel reveal" style="transition-delay: 0.2s;">
+          <form id="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="form-group">
+                <input type="text" id="form-name" class="form-input" placeholder=" " required>
+                <label for="form-name" class="form-label">Full Name</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="form-email" class="form-input" placeholder=" " required>
+                <label for="form-email" class="form-label">Email Address</label>
+              </div>
+              <div class="form-group form-group-full">
+                <input type="text" id="form-subject" class="form-input" placeholder=" " required>
+                <label for="form-subject" class="form-label">Subject</label>
+              </div>
+              <div class="form-group form-group-full">
+                <textarea id="form-message" class="form-input" placeholder=" " required></textarea>
+                <label for="form-message" class="form-label">Message Details</label>
+              </div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <a href="#hero" class="logo">
+          VYSHNAVI<span class="logo-dot"></span>
+        </a>
+        
+        <div class="footer-nav">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#internship">Internship</a>
+          <a href="#projects">Projects</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Vyshnavi Ullingala. All Rights Reserved. Fully responsive engineering portfolio.</p>
+        <p class="footer-copy">Designed & Developed by Antigravity</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Scroll To Top -->
+  <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Back to Top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </a>
+
+  <!-- Script File -->
+  <script src="script.js"></script>
+</body>
+</html>
